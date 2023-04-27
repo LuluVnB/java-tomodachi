@@ -57,6 +57,14 @@ body{
     display: flex;
     align-items: center;
     font-size: 3rem;
+    border: 1px solid red;
+}
+
+.char-details-text.name,
+.char-details-text.health,
+.char-details-text.hunger{
+    display: grid;
+    grid-template-columns: 30% 1fr;
 }
 
 #character-name-text,
@@ -67,6 +75,7 @@ body{
 
 textarea{
     resize: none;
+    width: 15rem;
 }
 
 @media (max-width: 600px){
