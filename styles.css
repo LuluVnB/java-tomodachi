@@ -71,7 +71,14 @@ textarea{
 
 @media (max-width: 600px){
     .char-creation-container{
-    max-width: 20rem;
-    max-height: 20rem;
+    max-width: 30rem;
+    max-height: 30rem;
+    }
+}
+
+@media (max-width: 400px){
+    .char-creation-container{
+        max-width: 20rem;
+        max-height: 20rem;
     }
 }
