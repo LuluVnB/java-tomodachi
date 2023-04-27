@@ -3,3 +3,15 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.char-creation-container{
+    border: 3px solid black;
+    padding: 30rem;
+    margin-top: 10rem;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
