@@ -44,14 +44,14 @@ body{
 
 .container-item.stats{
     display: grid;
-    grid-template-columns: 1fr 35%;
-    border-radius: 1px solid black;
+    grid-template-columns: 1fr 40%;
+    /* border: 1px solid red; */
 }
 
 .char-details{
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .char-details-text{
@@ -80,6 +80,9 @@ textarea{
 
 .character{
     border: 5px solid black;
+    height: 27.5rem;
+    margin-top: 4.9rem;
+
 }
 
 @media (max-width: 600px){
