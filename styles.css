@@ -82,7 +82,7 @@ textarea{
 
 .character{
     border: 5px solid black;
-    background-color: gray;
+    background-color: rgb(180, 180, 180);
     height: 27.5rem;
     margin-top: 4.9rem;
 
