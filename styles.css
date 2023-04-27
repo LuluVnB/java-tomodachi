@@ -11,8 +11,8 @@ body{
 
 .char-creation-container{
     border: 3px solid black;
-    min-width: 50rem;
-    min-height: 50rem;
+    width: 50rem;
+    height: 50rem;
     margin-top: 10rem;
     display: grid;
     grid-template-rows: 1fr 5fr 1fr;
@@ -67,4 +67,11 @@ body{
 
 textarea{
     resize: none;
+}
+
+@media (max-width: 600px){
+    .char-creation-container{
+    max-width: 20rem;
+    max-height: 20rem;
+    }
 }
