@@ -15,7 +15,7 @@ body{
     min-height: 50rem;
     margin-top: 10rem;
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
 }
 
 .container-item{
@@ -40,4 +40,30 @@ body{
     padding: 5px 30px;
     border-radius: 15px;
     font-size: 2rem;
+}
+
+.container-item.stats{
+    display: grid;
+    grid-template-columns: 1fr 35%;
+    border-radius: 1px solid black;
+}
+
+.char-details{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.char-details-text{
+    display: flex;
+    align-items: center;
+}
+
+#character-name-text,
+#character-health-text,
+#character-hunger-text{
+    margin-right: 40px;
+}
+
+textarea{
+    resize: none;
 }
