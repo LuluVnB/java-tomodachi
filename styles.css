@@ -92,16 +92,24 @@ textarea{
     background-color: rgb(185, 185, 185);
 }
 
-@media (max-width: 600px){
+@media (max-width: 600){
     .char-creation-container{
-    max-width: 30rem;
-    max-height: 30rem;
+        width: 100%;
     }
-}
 
-@media (max-width: 400px){
-    .char-creation-container{
-        max-width: 20rem;
-        max-height: 20rem;
+    .container-item.stats{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
     }
+
+    .char-details{
+        display: flex;
+        justify-content: center;
+        grid-row: 1/2;
+    }
+
+    .character{
+        grid-row: 2/3;
+    }
+
 }
