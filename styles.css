@@ -109,11 +109,7 @@ textarea{
         align-items: center;
         flex-direction: column;
     }
-
-    .char-details-text.name{
-
-    }
-
+    
     .container-item.stats{
         display: flex;
         flex-direction: column;
